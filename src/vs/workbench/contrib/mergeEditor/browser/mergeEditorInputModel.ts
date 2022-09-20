@@ -120,7 +120,10 @@ export class TempFileMergeEditorModeFactory implements IMergeEditorInputModelFac
 			input2Data,
 			temporaryResultModel,
 			this._instantiationService.createInstance(MergeDiffComputer, diffProvider),
-			this._instantiationService.createInstance(MergeDiffComputer, this._instantiationService.createInstance(ProjectedDiffComputer, diffProvider))
+			this._instantiationService.createInstance(MergeDiffComputer, this._instantiationService.createInstance(ProjectedDiffComputer, diffProvider)),
+			{
+				resetResult: true,
+			}
 		);
 		store.add(model);
 
@@ -316,7 +319,10 @@ export class WorkspaceMergeEditorModeFactory implements IMergeEditorInputModelFa
 			input2Data,
 			result.object.textEditorModel,
 			this._instantiationService.createInstance(MergeDiffComputer, diffProvider),
-			this._instantiationService.createInstance(MergeDiffComputer, this._instantiationService.createInstance(ProjectedDiffComputer, diffProvider))
+			this._instantiationService.createInstance(MergeDiffComputer, this._instantiationService.createInstance(ProjectedDiffComputer, diffProvider)),
+			{
+				resetResult: true
+			}
 		);
 		store.add(model);
 

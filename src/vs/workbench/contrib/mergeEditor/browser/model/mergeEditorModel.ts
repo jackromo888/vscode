@@ -58,6 +58,7 @@ export class MergeEditorModel extends EditorModel {
 		readonly resultTextModel: ITextModel,
 		private readonly diffComputer: IMergeDiffComputer,
 		private readonly diffComputerConflictProjection: IMergeDiffComputer,
+		private readonly options: { resetResult: boolean },
 		@IModelService private readonly modelService: IModelService,
 		@ILanguageService private readonly languageService: ILanguageService,
 	) {
@@ -115,7 +116,9 @@ export class MergeEditorModel extends EditorModel {
 	}
 
 	private async initialize(): Promise<void> {
-		await this.reset();
+		if (this.options.resetResult) {
+			await this.reset();
+		}
 	}
 
 	public async reset(): Promise<void> {
