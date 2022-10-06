@@ -15,7 +15,7 @@
     "vscode-languageserver-types": "^3.17.1",
     "vscode-markdown-languageservice": "^0.1.0-alpha.6",
     "vscode-nls": "^5.0.1",
-    "vscode-uri": "^3.0.3"
+    "vscode-uri": "^3.0.4"
   },
   "devDependencies": {
     "@types/node": "16.x"
