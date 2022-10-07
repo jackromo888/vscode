@@ -10,7 +10,7 @@
     "@vscode/ripgrep": "^1.14.2",
     "@vscode/vscode-languagedetection": "1.0.21",
     "cookie": "^0.4.0",
-    "graceful-fs": "4.2.8",
+    "graceful-fs": "4.2.10",
     "http-proxy-agent": "^2.1.0",
     "https-proxy-agent": "^2.2.3",
     "jschardet": "3.0.0",
