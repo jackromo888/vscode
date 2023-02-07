@@ -3446,9 +3446,6 @@ d@1, d@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/d/-/d-1.0.1.tgz#8698095372d58dbee346ffd0c7093f99f8f9eb5a"
   integrity sha512-m62ShEObQ39CfralilEQRjH6oAMtNCV1xJyEx5LpRYUVN+EviphDgUc/F3hnYbADmkiNs67Y+3ylmlG7Lnu+FA==
-  dependencies:
-    es5-ext "^0.10.50"
-    type "^1.0.1"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -11658,10 +11655,10 @@ xterm-headless@5.0.0:
   resolved "https://registry.yarnpkg.com/xterm-headless/-/xterm-headless-5.0.0.tgz#6426e85aec24f1bdfd322fe4e5159e0113f059d4"
   integrity sha512-d+3C883Tz5zNCcapJSUpZVO8lplKhjJZtvuL4oIMTE74BX/3UsK7zUQgp5c6KS5Vv4FjFSb3XQA+n2Cx9Znq+w==
 
-xterm@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/xterm/-/xterm-5.0.0.tgz#0af50509b33d0dc62fde7a4ec17750b8e453cc5c"
-  integrity sha512-tmVsKzZovAYNDIaUinfz+VDclraQpPUnAME+JawosgWRMphInDded/PuY0xmU5dOhyeYZsI0nz5yd8dPYsdLTA==
+xterm@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/xterm/-/xterm-5.1.0.tgz#3e160d60e6801c864b55adf19171c49d2ff2b4fc"
+  integrity sha512-LovENH4WDzpwynj+OTkLyZgJPeDom9Gra4DMlGAgz6pZhIDCQ+YuO7yfwanY+gVbn/mmZIStNOnVRU/ikQuAEQ==
 
 y18n@^3.2.1:
   version "3.2.2"
