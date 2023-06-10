@@ -131,7 +131,7 @@
     "watch": "gulp watch-extension:github"
   },
   "dependencies": {
-    "@octokit/rest": "19.0.4",
+    "@octokit/rest": "19.0.10",
     "tunnel": "^0.0.6",
     "vscode-nls": "^5.1.0"
   },
